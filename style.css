@@ -95,7 +95,7 @@ button {
     color: #1F2937;
 }
 
-.information-boxes, .all-subtext {
+.information-boxes {
     display: flex;
     width: auto;
     height: auto;
@@ -103,9 +103,11 @@ button {
     flex-wrap: wrap;
 }
 
-.all-subtext{
-
+.text-box {
+    display: flex;
+    flex-direction: column;
 }
+
 
 .box {
     width: 100px;
@@ -120,5 +122,9 @@ button {
     display: flex;
     flex-wrap: wrap;
     width: 100px;
-    height: 100px;
+    height: auto;
+    margin-top: 4px;
+    color: #868686;
+    font-size: 15px;
+    text-align: center;
 }
