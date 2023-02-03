@@ -53,7 +53,8 @@ ul, p, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 150px 0 150px;
+    padding: 75px 150px 75px 150px;
+    flex: 1 1 0px;
 }
 
 .intro-text {
@@ -79,6 +80,7 @@ button {
     flex: 2;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .info {
@@ -87,6 +89,9 @@ button {
     gap: 5px;
     justify-content: center;
     align-items: center;
+    height: auto;
+    flex: 1 1 0px;
+    padding: 75px 0 75px;
 }
 
 .info-headline {
@@ -127,4 +132,36 @@ button {
     color: #868686;
     font-size: 15px;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 0px;
+    padding: 75px 0 75px;
+    flex-direction: column;
+}
+
+.quote-and-person{
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 400px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.quote-person {
+    font-size: 18px;
+    color: black;
+    align-self: flex-end;
+    margin-top: 2px;
 }
